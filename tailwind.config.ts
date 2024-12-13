@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import fluid, { extract, fontSize } from "fluid-tailwind";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: {
@@ -13,17 +14,20 @@ export default {
   theme: {
     fontSize,
     extend: {
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "black": "282828",
-        "black-1": "100F0F",
-        "bg": "F7F7F7",
-        "grey": "EAEAEA",
-        "grey-1": "DFDFDF",
-        "grey-2": "A2A2A2",
-        "grey-3": "A0A0A0",
-        "grey-4": "3E3B3B",
+        black: "#282828",
+        "black-1": "#100F0F",
+        bg: "#F7F7F7",
+        grey: "#EAEAEA",
+        "grey-1": "#DFDFDF",
+        "grey-2": "#A2A2A2",
+        "grey-3": "#A0A0A0",
+        "grey-4": "#3E3B3B",
       },
     },
     fluid: () => ({
