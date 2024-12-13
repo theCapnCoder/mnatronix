@@ -30,8 +30,15 @@ export default {
         "grey-4": "#3E3B3B",
       },
     },
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
+      "2xl": "1920px",
+    },
     fluid: () => ({
-      defaultScreens: ["20rem", "90rem"],
+      defaultScreens: ["23.4375rem", "120rem"],
     }),
   },
   plugins: [fluid],
