@@ -1,6 +1,20 @@
 import type { Config } from "tailwindcss";
-import fluid, { extract, fontSize } from "fluid-tailwind";
+import fluid, { extract, fontSize as baseFontSize } from "fluid-tailwind";
 import { fontFamily } from "tailwindcss/defaultTheme";
+
+const createClamp = (min: number, max: number) =>
+  `clamp(${min}px, calc((${max} - ${min}) * ((100vw - 375px) / (1920 - 375)) + ${min}px), ${max}px)`;
+
+const fontSize = {
+  ...baseFontSize,
+  xxs: createClamp(16, 18),
+  xs: "18px",
+  s: createClamp(16, 24),
+  m: createClamp(20, 28),
+  l: createClamp(18, 32),
+  xl: createClamp(22, 40),
+  xxl: createClamp(28, 70),
+};
 
 export default {
   content: {

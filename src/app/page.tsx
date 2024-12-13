@@ -5,10 +5,9 @@ export default function Home() {
 
   return (
     <div>
-      <h2>Home</h2>
-      <h1 className="text-3xl">Home</h1>
-      <p>{t("nav.about_us")}</p>
-
+      <h2 className="leading-xxs leadi text-xxl">Home</h2>
+      <h1 className="text-3xl ~leading-[140%]/[1.2]">Home</h1>
+      <p>{t("button")}</p>
     </div>
   );
 }
