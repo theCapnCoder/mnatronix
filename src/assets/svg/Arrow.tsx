@@ -11,7 +11,7 @@ const SvgArrow = (props: SVGProps<SVGSVGElement>) => (
   >
     <g clipPath="url(#arrow_svg__a)">
       <path
-        fill="#000"
+        fill="currentColor"
         d="M18.2 15.937a.75.75 0 0 1-.812-.682l-.674-7.706-9.442 11.253a.75.75 0 1 1-1.15-.965l9.443-11.252-7.706.674a.75.75 0 0 1-.13-1.495l9.509-.832a.75.75 0 0 1 .813.682l.832 9.51a.75.75 0 0 1-.682.813"
       />
     </g>

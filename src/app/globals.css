@@ -6,6 +6,12 @@
   .max-w-initial {
     max-width: initial;
   }
+
+  .btn-bg-shadow {
+    box-shadow:
+      0 2px 1px 0 rgba(0, 0, 0, 0.25),
+      0 -2px 1px 0 rgba(0, 0, 0, 0.25);
+  }
 }
 
 :root {

@@ -3,7 +3,7 @@ import fluid, { extract, fontSize as baseFontSize } from "fluid-tailwind";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 const createClamp = (min: number, max: number) =>
-  `clamp(${min}px, calc((${max} - ${min}) * ((100vw - 375px) / (1920 - 375)) + ${min}px), ${max}px)`;
+  `clamp(${min}px, calc((${max} - ${min}) * ((100vw - 375px) / (1280 - 375)) + ${min}px), ${max}px)`;
 
 const fontSize = {
   ...baseFontSize,
@@ -52,7 +52,7 @@ export default {
       "2xl": "1920px",
     },
     fluid: () => ({
-      defaultScreens: ["23.4375rem", "120rem"],
+      defaultScreens: ["23.4375rem", "80rem"],
     }),
   },
   plugins: [fluid],
