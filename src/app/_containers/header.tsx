@@ -41,7 +41,7 @@ export const Header = () => {
   };
 
   return (
-    <header>
+    <header className="~mb-10/14">
       <Container>
         <div className="flex items-center justify-between">
           <Image src={Logo} alt="logo" className="min-[575px]:hidden" />
@@ -63,7 +63,7 @@ export const Header = () => {
             </ul>
           </nav>
 
-          <div className="flex items-center gap-5">
+          <div className="flex items-center ~gap-4/5">
             <NavButton icon={Arrow}>{t("button")}</NavButton>
 
             {isOpenMenu ? (
