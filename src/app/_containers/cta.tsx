@@ -12,7 +12,7 @@ export const Cta = () => {
   const t = useTranslations("cta");
 
   return (
-    <main>
+    <main className="~mb-14/24 md:mb-[6.25rem]">
       <Container>
         <h1 className="mb-1 text-xxl font-medium uppercase leading-tight md:hidden">
           {t("title")}
@@ -31,7 +31,7 @@ export const Cta = () => {
         <p
           className={clsx(
             "mb-5 font-medium ~text-base/2xl sm:leading-5",
-            "xl:mb-14 md:ml-auto md:max-w-[42ch]"
+            "md:ml-auto md:max-w-[42ch] xl:mb-14"
           )}
         >
           {t("description")}
@@ -39,7 +39,6 @@ export const Cta = () => {
         <Button className="mb-6 w-full md:hidden" startIcon={Arrow}>
           Получить консультацию
         </Button>
-
 
         <div className="relative w-full overflow-hidden ~h-40/[23.125rem] ~rounded-2xl/[2rem]">
           <Image src={BgLarge} alt="background" fill className="object-cover" />
