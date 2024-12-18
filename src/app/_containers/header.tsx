@@ -48,10 +48,10 @@ export const Header = () => {
           <Image
             src={LogoWithText}
             alt="logo"
-            className="hidden min-[575px]:block"
+            className="min-[35.9375rem]:block hidden"
           />
 
-          <nav className="hidden min-[1000px]:block">
+          <nav className="min-[62.5rem]:block hidden">
             <ul className="flex items-center ~gap-[0rem]/[1.875rem]">
               {links.map((item) => (
                 <li key={item.title}>

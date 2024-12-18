@@ -72,7 +72,7 @@ export const Technologies = () => {
   ];
 
   return (
-    <section>
+    <section className="mb-12">
       <Container>
         <h2 className="text-xl font-semibold ~mb-2/3">{t("title")}</h2>
         <h3 className="mb-5 text-s leading-snug">{t("description")}</h3>

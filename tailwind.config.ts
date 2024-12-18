@@ -1,5 +1,9 @@
 import type { Config } from "tailwindcss";
-import fluid, { extract, fontSize as baseFontSize } from "fluid-tailwind";
+import fluid, {
+  extract,
+  screens,
+  fontSize as baseFontSize,
+} from "fluid-tailwind";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 const createClamp = (min: number, max: number) =>
@@ -27,6 +31,7 @@ export default {
   },
   theme: {
     fontSize,
+    screens,
     extend: {
       fontFamily: {
         montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
@@ -43,17 +48,17 @@ export default {
         "grey-3": "#A0A0A0",
         "grey-4": "#3E3B3B",
       },
-    },
-    screens: {
-      sm: "375px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1440px",
-      "2xl": "1920px",
+      screens: {
+        sm: "23.4375rem",
+        md: "48rem",
+        lg: "64rem",
+        xl: "90rem",
+        "2xl": "120rem",
+      },
     },
     fluid: () => ({
       defaultScreens: ["23.4375rem", "80rem"],
     }),
   },
-  plugins: [fluid],
+  plugins: [fluid({ checkSC144: false })],
 } satisfies Config;
