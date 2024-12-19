@@ -3,6 +3,7 @@ import { Cta } from "./_containers/cta";
 import { Technologies } from "./_containers/technologies";
 import { AboutUs } from "./_containers/about-us";
 import { OurWorks } from "./_containers/our-works";
+import { Workflow } from "./_containers/workflow";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Technologies />
       <AboutUs />
       <OurWorks />
+      <Workflow />
     </div>
   );
 }
