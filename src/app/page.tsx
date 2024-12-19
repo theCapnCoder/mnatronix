@@ -2,6 +2,7 @@ import { Header } from "./_containers/header";
 import { Cta } from "./_containers/cta";
 import { Technologies } from "./_containers/technologies";
 import { AboutUs } from "./_containers/about-us";
+import { OurWorks } from "./_containers/our-works";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Cta />
       <Technologies />
       <AboutUs />
+      <OurWorks />
     </div>
   );
 }
