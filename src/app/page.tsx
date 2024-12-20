@@ -6,6 +6,7 @@ import { OurWorks } from "./_containers/our-works";
 import { Workflow } from "./_containers/workflow";
 import { OurClients } from "./_containers/our-clients";
 import { Proofs } from "./_containers/proofs";
+import { Contact } from "./_containers/contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Workflow />
       <OurClients />
       <Proofs />
+      <Contact />
     </div>
   );
 }

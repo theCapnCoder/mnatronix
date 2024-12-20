@@ -11,6 +11,11 @@
     background-image: url("../../public/images/bg/bg-medium.jpg");
   }
 
+  .bg-img-large {
+    background-image: url("../../public/images/bg/bg-large.jpg");
+    background-size: cover;
+  }
+
   .btn-bg-shadow {
     box-shadow:
       0 2px 1px 0 rgba(0, 0, 0, 0.25),
