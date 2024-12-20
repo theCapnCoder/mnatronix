@@ -4,6 +4,7 @@ import { Technologies } from "./_containers/technologies";
 import { AboutUs } from "./_containers/about-us";
 import { OurWorks } from "./_containers/our-works";
 import { Workflow } from "./_containers/workflow";
+import { OurClients } from "./_containers/our-clients";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutUs />
       <OurWorks />
       <Workflow />
+      <OurClients />
     </div>
   );
 }
