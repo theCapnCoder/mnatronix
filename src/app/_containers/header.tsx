@@ -48,7 +48,7 @@ export const Header = () => {
           <Image
             src={LogoWithText}
             alt="logo"
-            className="min-[35.9375rem]:block hidden"
+            className="min-[575px]:block hidden"
           />
 
           <nav className="min-[62.5rem]:block hidden">

@@ -8,8 +8,8 @@ export const Contact = () => {
   const t = useTranslations("contact");
 
   return (
-    <section>
-      <div className="bg-img-large">
+    <section className="~py-8/14">
+      <div className="bg-img-large py-4 md:py-0">
         <Container>
           <div className="flex w-full flex-col items-center xl:items-start">
             <div className="max-w-[32.5rem] xl:flex xl:w-full xl:max-w-full xl:justify-between xl:px-20 xl:py-14">

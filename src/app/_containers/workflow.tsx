@@ -37,7 +37,7 @@ export const Workflow = () => {
   return (
     <section>
       <Container>
-        <h2 className="mb-4 text-xl font-semibold">{t("title")}</h2>
+        <h2 className="mb-4 text-xl font-semibold uppercase">{t("title")}</h2>
         <p className="mb-4 text-s leading-tight">{t("description")}</p>
 
         <div className="flex flex-col gap-4">

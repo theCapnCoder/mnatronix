@@ -58,7 +58,7 @@ export const OurClients = () => {
   const t = useTranslations("our_clients");
 
   return (
-    <section>
+    <section className="~py-8/14">
       <Container>
         <h2 className="text-xl font-semibold ~mb-3/8">{t("title")}</h2>
         <div
