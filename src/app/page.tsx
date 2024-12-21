@@ -7,6 +7,7 @@ import { Workflow } from "./_containers/workflow";
 import { OurClients } from "./_containers/our-clients";
 import { Proofs } from "./_containers/proofs";
 import { Contact } from "./_containers/contact";
+import { Footer } from "./_containers/footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <OurClients />
       <Proofs />
       <Contact />
+      <Footer />
     </div>
   );
 }
