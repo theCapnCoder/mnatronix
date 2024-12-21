@@ -11,42 +11,44 @@
   },
 
   "cta": {
+    "title": "Ключ к вашему цифровому превосходству в наших руках",
     "title_start": "КЛЮЧ К ВАШЕМУ",
     "title_end": "ЦИФРОВОМУ ПРЕВОСХОДСТВУ В НАШИХ РУКАХ",
     "description": "Mnatronix Labs — это веб-IT компания, специализирующаяся на разработке веб-приложений и цифровых решений для различных отраслей бизнеса",
     "button": "Получить консультацию"
   },
 
-  "Technologies": {
+  "technologies": {
     "title": "ТЕХНОЛОГИИ РАЗРАБОТКИ",
     "description": "Мы создаём решения, которые помогают бизнесу быть гибким, конкурентоспособным и готовым к будущим вызовам.",
-    "services": [
-      {
+    "services": {
+      "service_1": {
         "id": "01",
         "title": "Веб-дизайн & Разработка",
         "description": "Веб-сайт — это продолжение вас самих, и мы можем помочь вам правильно его выразить."
       },
-      {
+      "service_2": {
         "id": "02",
         "title": "Мобильное приложение",
         "description": "Создаём нативные и кросс-платформенные приложения для iOS и Android."
       },
-      {
+      "service_3": {
         "id": "03",
         "title": "Отлаживание и тестирование",
         "description": "Тестирование сайта и сервисов для стабильной работы и исключения ошибок."
       },
-      {
+      "service_4": {
         "id": "04",
         "title": "Ресерч и аналитика",
         "description": "Тестирование сайта и сервисов для стабильной работы и исключения ошибок."
       }
-    ]
+    }
   },
 
   "about_us": {
     "title": "НЕМНОГО О НАС",
-    "description": "Наши продукты <span class='font-bold'>увеличивают потенциал развития</span> вашей компании. Наша работа заключается не только в создании технических команд, но и в предоставлении комплексной поддержки на всех стадиях проекта. Мы создаём программное обеспечение под заказ, что помогает удовлетворить все потребности вашего бизнеса и гарантирует успешную реализацию продукта.",
+    "description_1": "Наши продукты <span>увеличивают потенциал развития</span> вашей компании. Наша работа заключается не только в создании технических команд, но и в предоставлении комплексной поддержки на всех стадиях проекта.",
+    "description_2": "Мы создаём программное обеспечение под заказ, что помогает удовлетворить все потребности вашего бизнеса и гарантирует успешную реализацию продукта.",
     "button": "Заказать проект"
   },
 
@@ -56,44 +58,44 @@
     "project_examples": {
       "example_1": {
         "title": "Website Design for SCFC Canada",
-        "snippet": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+        "description": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
         "button": "Смотреть полностью"
       },
       "example_2": {
         "title": "Website Design for SCFC Canada",
-        "snippet": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+        "description": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
         "button": "Смотреть полностью"
       },
       "example_3": {
         "title": "Website Design for SCFC Canada",
-        "snippet": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+        "description": "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
         "button": "Смотреть полностью"
       }
     }
   },
 
   "workflow": {
-    "title": "ТЕСТИРОВАНИЕ ПРОДУКТА",
+    "title": "Наш путь разработки",
     "description": "Этапы нашего пути — это глубокое понимание вашего бизнеса, прозрачная коммуникация и полное сопровождение на пути к вашему успеху.",
     "process": {
       "stage_1": {
-        "name": "Сбор лучшей команды",
+        "title": "Сбор лучшей команды",
         "details": "Путь спринта — это коллективное планирование. Члены команды проясняют вопросы и обеспечивают общее понимание."
       },
       "stage_2": {
-        "name": "Планирование спринта",
+        "title": "Планирование спринта",
         "details": "Путь спринта — это коллективное планирование. Члены команды проясняют вопросы и обеспечивают общее понимание."
       },
       "stage_3": {
-        "name": "Техническая архитектура",
+        "title": "Техническая архитектура",
         "details": "Путь спринта — это коллективное планирование. Члены команды проясняют вопросы и обеспечивают общее понимание."
       },
       "stage_4": {
-        "name": "Ежедневные демонстрации",
+        "title": "Ежедневные демонстрации",
         "details": "Путь спринта — это коллективное планирование. Члены команды проясняют вопросы и обеспечивают общее понимание."
       },
       "stage_5": {
-        "name": "Код ревью",
+        "title": "Код ревью",
         "details": "Путь спринта — это коллективное планирование. Члены команды проясняют вопросы и обеспечивают общее понимание."
       }
     }
@@ -140,7 +142,8 @@
   },
 
   "footer": {
-    "title": "НАЧНИТЕ ПУТЬ К ВАШЕМУ IT-РЕШЕНИЮ УЖЕ СЕГОДНЯ!",
+    "title": "Начните путь к вашему IT-решению уже сегодня!",
+    "link_title": "Ссылки",
     "links": {
       "about_us": "О нас",
       "services": "Услуги",
@@ -150,6 +153,7 @@
       "contacts": "Контакты"
     },
     "contact_info": {
+      "title": "Связь",
       "call_us": "Позвоните нам или напишите в любом из удобных для вас мессенджеров",
       "phone": "+7 900 286-72-53"
     },

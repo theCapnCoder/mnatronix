@@ -10,7 +10,7 @@ const SvgAlignJustify = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      stroke="#282828"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.6}
